@@ -765,8 +765,8 @@ if __name__ == "__main__":
 #!python music_bot.py
      
 #2026-10-28 17:09:41,917 | INFO | Bot ishga tushmoqda: @xonlar_bot
-ERROR: [youtube] Du9_AnolyPA: This video is not available
-2026-10-28 17:17:33,341 | ERROR | Instagram audio uchun to'liq musiqani qidirishda xato
+#ERROR: [youtube] Du9_AnolyPA: This video is not available
+#2026-10-28 17:17:33,341 | ERROR | Instagram audio uchun to'liq musiqani qidirishda xato
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1728, in wrapper
     return func(self, *args, **kwargs)
