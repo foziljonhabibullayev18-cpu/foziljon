@@ -767,36 +767,9 @@ if __name__ == "__main__":
 #2026-10-28 17:09:41,917 | INFO | Bot ishga tushmoqda: @xonlar_bot
 #ERROR: [youtube] Du9_AnolyPA: This video is not available
 #2026-10-28 17:17:33,341 | ERROR | Instagram audio uchun to'liq musiqani qidirishda xato
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1728, in wrapper
-    return func(self, *args, **kwargs)
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1863, in __extract_info
-    ie_result = ie.extract(url)
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/extractor/common.py", line 764, in extract
-    ie_result = self._real_extract(url)
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/extractor/youtube/_video.py", line 4083, in _real_extract
-    self.raise_no_formats(reason, expected=True)
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/extractor/common.py", line 1271, in raise_no_formats
-    raise ExtractorError(msg, expected=expected, video_id=video_id)
-yt_dlp.utils.ExtractorError: [youtube] Du9_AnolyPA: This video is not available
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/content/music_bot.py", line 479, in download_media
-    return download_media(chat_id, found[0]["url"], "a")
-  File "/content/music_bot.py", line 503, in download_media
-    info = ydl.extract_info(url, download=True)
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1717, in extract_info
-    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
-           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1746, in wrapper
-    self.report_error(str(e), e.format_traceback())
-    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1162, in report_error
-    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1100, in trouble
-    raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info())
-yt_dlp.utils.DownloadError: ERROR: [youtube] Du9_AnolyPA: This video is not available
+#Traceback (most recent call last):
+  #File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1728, in wrapper
+   # return func(self, *args, **kwargs)
+ # File "/usr/local/lib/python3.13/dist-packages/yt_dlp/YoutubeDL.py", line 1863, in __extract_info
+   #
+#
