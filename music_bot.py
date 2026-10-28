@@ -761,7 +761,6 @@ if __name__ == "__main__":
     bot.infinity_polling(skip_pending=True, timeout=30, long_polling_timeout=30)
 
      
-Overwriting music_bot.py
 
 !python music_bot.py
      
