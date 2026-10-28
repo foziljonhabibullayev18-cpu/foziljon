@@ -762,7 +762,7 @@ if __name__ == "__main__":
 
      
 
-!python music_bot.py
+#!python music_bot.py
      
 2026-10-28 17:09:41,917 | INFO | Bot ishga tushmoqda: @xonlar_bot
 ERROR: [youtube] Du9_AnolyPA: This video is not available
