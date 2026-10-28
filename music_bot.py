@@ -1,4 +1,3 @@
-%%writefile music_bot.py
 import os
 import re
 import uuid
