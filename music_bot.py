@@ -21,7 +21,7 @@ from telebot.types import (
 # ============================================================
 # SOZLAMALAR
 # ============================================================
-TOKEN = "9085817383:AAFun6Svuf3nSHd0OnSUjzQilOg3Hnclnjs"
+TOKEN = "9085817383:AAFQB9NZHfFLPP8uIRNhM-pu0cD8Hn39a3s"
 ADMIN_ID = 8077522227
 
 if not TOKEN:
