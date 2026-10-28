@@ -1,20 +1,3 @@
-
-Open In Colab
-
-!pip install -q pyTelegramBotAPI yt-dlp
-     
-
-from google.colab import files
-files.upload()
-     
-Upload widget is only available when the cell has been executed in the current browser session. Please rerun this cell to enable.
-{}
-
-!python music_bot.py
-     
-2026-10-28 17:07:09,745 | INFO | Bot ishga tushmoqda: @xonlar_bot
-KeyboardInterrupt
-
 %%writefile music_bot.py
 import os
 import re
